@@ -1,10 +1,7 @@
 /* importing fonts */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
-:root {
-  --primary: #eeeff1;
-  --secondary: #1a1c20;
-}
+
 /* applying fonts and basic properties */
 html {
   font-size: 10px;
@@ -40,14 +37,18 @@ body {
 
 
 .nav_item { 
+  
   color: rgb(255, 255, 255);
   font-size: 1.8em;
   font-weight: 500;
- 
+  /* margin-bottom: 50em; */
   text-decoration: none;
   padding: 0px 0.5em;
   transition: all 0.2s ease;
 }
+/* #shift{
+  margin-bottom: 50em;
+} */
 
 .nav_item:hover {
   color: #b9b9b9;
@@ -87,7 +88,7 @@ body {
 
 .icon_link:hover svg path {
   fill: #b9b9b9;
-  ;
+  
 }
 
 /* hero section */
@@ -232,14 +233,14 @@ body {
 .skill_bar {
   width: 100%;
   height: 10px;
-  background-color: #e2e2e2;
+  background-color: #ffffff;
   border-radius: 5px;
 }
 
 .skill_bar_progress {
   height: 10px;
   border-radius: 5px;
-  background-color: rgb(0, 0, 0);
+  background: linear-gradient(to top left, #6600ff 0%, #ff99cc 100%);
 }
 
 #html {
@@ -403,10 +404,18 @@ body {
   .hero_text_span {
     display: block;
   }
-
+ 
   .nav {
     padding: 0;
+    
   }
+  #shift{
+     position: relative; 
+      top: -45px;  
+  }
+
+  
+ 
   .nav_burger_div {
     padding: 5px;
     display: inline;
@@ -428,10 +437,10 @@ body {
 
   }
   .nav_items {
-    background-color: #1d1b1b;
+    background-color: #070707;
     width: 100%;
     text-align: center;
-    transition: all 0.8s ease;
+    transition: all 0.5s ease;
     box-shadow: 0 2px 4px -1px rgba(0,0,0,0.25)
   }
 
@@ -452,6 +461,7 @@ body {
   .icons_section {
     display: none;
   }
+  
   .hero_image_box {
     margin: auto;
     width: 100%;
