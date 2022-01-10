@@ -37,18 +37,17 @@ body {
 
 
 .nav_item { 
-  
-  color: rgb(255, 255, 255);
   font-size: 1.8em;
-  font-weight: 500;
- 
+  font-weight: 600;
   text-decoration: none;
   padding: 0px 0.5em;
   transition: all 0.3s ease;
+  text-transform: uppercase;
+	background: linear-gradient(to bottom right, #0099ff 0%, #99ffcc 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
-/* #shift{
-  margin-bottom: 50em;
-} */
+
 
 .nav_item:hover {
   color: #b9b9b9;
@@ -119,6 +118,7 @@ body {
 
 .hero_text_span {
   display: block;
+  
 }
 
 .hero_title {
@@ -186,11 +186,11 @@ body {
 .download_cv {
   width: fit-content;
   display: block;
-  background-color: #3b3b3b;
+  background: linear-gradient(to bottom, #33ccff 0%, #00ffcc 100%);
   margin: 0.8em 0 0 0;
   padding: 0.8em 1em;
   text-decoration: none;
-  color: #ffffff;
+  color: #000000;
   font-size: 2em;
   border-radius: 10px;
 }
@@ -321,15 +321,20 @@ body {
 
 .footer_left p {
   font-size: 1.6em;
-  font-weight: 400;
-  color: #cacaca;
+  font-weight: 450;
+  background:  linear-gradient(315deg, #63a4ff 0%, #83eaf1 74%);
+ -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   text-decoration: none;
+  
 }
 
 .footer_item {
   font-size: 1.6em;
-  font-weight: 400;
-  color: #cacaca;
+  font-weight: 450;
+  background: linear-gradient(315deg, #63a4ff 0%, #83eaf1 74%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   text-decoration: none;
   padding: 0px 0.5em;
 }
@@ -359,11 +364,22 @@ body {
     color: #636363;
     display: inline;
     font-size: 0.5em;
-    font-weight: 400;
+    font-weight: 550;
     margin-bottom: 20px;
     line-height: 1em;
+    background: linear-gradient(to bottom right, #0099ff 0%, #99ffcc 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
-
+  .icons_section {
+    z-index: 600;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: static;
+    margin: 0 auto;
+  }
   .about_image {
     display: none;
   }
@@ -422,7 +438,7 @@ body {
     filter:  invert(0.5)
     sepia(1)
     hue-rotate(200deg)
-    saturate(4)
+    saturate(15)
     brightness(1);
 
   }
@@ -446,13 +462,8 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    position: absolute;
-    bottom: -260rem ;
-    right: 4.5em;
-    padding-bottom: 5.4em;
-    margin-right: 23em;
-
-  
+    position: static;
+    margin: 0 auto;
   }
   .icon_link{
     padding: 2em;
@@ -498,13 +509,8 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    position: absolute;
-    bottom: -322rem ;
-    right: 1em;
-    padding-bottom: 5.4em;
-    margin-right: 12.5em;
-
-  
+    position: static;
+    margin: 0 auto;
   }
   .icon_link{
     padding: 1em;
