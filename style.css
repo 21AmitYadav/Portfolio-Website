@@ -38,7 +38,7 @@ body {
 
 .nav_item { 
   font-size: 1.8em;
-  font-weight: 600;
+  font-weight: 500;
   text-decoration: none;
   padding: 0px 0.5em;
   transition: all 0.3s ease;
@@ -438,7 +438,7 @@ body {
     filter:  invert(0.5)
     sepia(1)
     hue-rotate(200deg)
-    saturate(15)
+    saturate(5)
     brightness(1);
 
   }
